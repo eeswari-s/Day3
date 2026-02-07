@@ -5,6 +5,7 @@ import p3 from "../assets/p3.jpg";
 import p4 from "../assets/p4.avif";
 
 function Products() {
+ //
   return (
     <div>
       <section className="px-16 py-16 bg-gray-50">
@@ -19,6 +20,8 @@ function Products() {
                     <button className='mt-4 w-full py-2 rounded-full bg-slate-900 text-white hover:bg-slate-200'>Add to cart</button>
                     </div>
             ))}
+      {/*}  <!-- ... -->*/}
+      
         </div>
       </section>
     
